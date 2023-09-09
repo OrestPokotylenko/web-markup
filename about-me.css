@@ -1,0 +1,52 @@
+body {
+    background-color:rgb(132, 248, 248);
+}
+
+.heading {
+    width: 2430px;
+    border: 5px solid white;
+    border-radius: 50px;
+    padding: 50px;
+    
+}
+
+h1 {
+    color: white;
+    font-style: italic;
+}
+
+img {
+    float: left;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.name {
+    margin-top: 100px;
+    color: white;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.age {
+    margin-top: 210px;
+    color: white;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.country {
+    margin-top: 210px;
+    color: white;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+p {
+    margin-top: 210px;
+    color: white;
+    font-size: xx-large;
+    font-style: italic;
+    margin-left: 400px;
+    margin-right: 400px;
+}
