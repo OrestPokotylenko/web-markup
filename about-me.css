@@ -3,7 +3,8 @@ body {
 }
 
 .heading {
-    width: 2430px;
+    /*width: 2430px;*/
+    width: auto;
     border: 5px solid white;
     border-radius: 50px;
     padding: 50px;
