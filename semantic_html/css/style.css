@@ -9,3 +9,14 @@ header {
     width: auto;
     border: 5px black;
 }
+
+.product {
+    padding-left: 30px;
+    margin-right: 650px;
+}
+
+.contact {
+    padding-right: 30px;
+    margin-left: 640px;
+}
+
