@@ -2,7 +2,7 @@ body {
     background-color:rgb(132, 248, 248);
 }
 
-.heading {
+.header {
     /*width: 2430px;*/
     width: auto;
     border: 5px solid white;
