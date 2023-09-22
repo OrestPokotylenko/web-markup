@@ -15,8 +15,12 @@ header {
     margin-right: 650px;
 }
 
+.service {
+    position: absolute;
+    
+}
+
 .contact {
     padding-right: 30px;
     margin-left: 640px;
 }
-
