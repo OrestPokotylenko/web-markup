@@ -1,4 +1,17 @@
-.hello-world {
-  color: magenta;
-  font-size: 24px;
+.inline {
+  display: inline;
+}
+
+.block {
+  display: block;
+}
+
+.inline_block {
+  display: inline-block;
+}
+
+h2 {
+  font-size: 23px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
