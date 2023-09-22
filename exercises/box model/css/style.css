@@ -1,0 +1,12 @@
+.box-model {
+  display: flow-root;
+  background-color: grey;
+}
+
+.box-model p {
+  display: block;
+  border: 5px solid black;
+  margin: 40px;
+  padding: 40px;
+  background-color: pink;
+}
