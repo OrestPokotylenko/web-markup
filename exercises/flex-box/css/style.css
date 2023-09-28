@@ -1,16 +1,51 @@
-.box {
-  width: 200px;
-  height: 200px;
-  background-color: lightblue;
-  font-size: 50px;
-  text-align: center;
-  padding: 20px;
-  margin: 20px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 section {
   display: flex;
-  width: 1000px;
-  height: 800px;
-  border: 5px solid red;
+  flex-grow: 1;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box {
+  font-size: 50px;
+  text-align: center;
+  padding: 20px;
+}
+
+.left {
+  width: 25%;
+  background-color: green;
+}
+
+.center {
+  width: 50%;
+  background-color: lightblue;
+}
+
+.right {
+  width: 25%;
+  background-color: grey;
+}
+
+header, 
+footer {
+  min-height: 60px;
+}
+
+header {
+  background-color: lightgreen;
+}
+
+footer {
+  background-color: lightcoral;
 }
