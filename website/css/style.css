@@ -8,11 +8,10 @@
 section {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   margin-top: 150px;
-}
-
-article {
   margin-left: 60px;
+  margin-right: 60px;
 }
 
 aside {
@@ -52,7 +51,6 @@ aside {
   grid-row: 4 / 6;
 }
 
-
 .top {
   display: flex;
   justify-content: space-between;
@@ -60,12 +58,20 @@ aside {
   border-bottom: 3px solid black;
 }
 
-button {
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-right: 50px;
+.buttons {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-right: 130px;
 }
 
+button {
+  height: 40px;
+  width: 180px;
+  margin-left: 30px;
+  background-color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
 
 h1 {
   font-size: 35px;
