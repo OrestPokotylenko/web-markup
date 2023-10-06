@@ -110,13 +110,15 @@ p {
   padding: 0 0 0 0;
 }
 
-.gallery-pictures {
+.gallery-top {
+  border-top: 3px solid black;
+}
+
+.gallery-images {
   width: auto;
-  height: 1078px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  border-top: 3px solid black;
 }
 
 .grote-markt-gallery {
