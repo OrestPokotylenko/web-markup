@@ -17,9 +17,15 @@
 /* HEADER */
 
 header {
+  background-color: white;
+  position: fixed;
   display: flex;
   justify-content: space-between;
   min-height: 100px;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
 }
 
 nav {
@@ -118,7 +124,7 @@ p {
 .gallery {
   display: flex;
   flex-direction: column;
-  margin: 300px 0px 0px;
+  margin: 10% 0% 0%;
 }
 
 .gallery-text {
