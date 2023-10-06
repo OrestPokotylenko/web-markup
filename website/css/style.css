@@ -5,6 +5,32 @@
   margin: 0;
 }
 
+/* HEADER */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  min-height: 100px;
+  border-bottom: 3px solid black;
+}
+
+nav {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-right: 130px;
+}
+
+button {
+  height: 40px;
+  width: 180px;
+  margin-left: 30px;
+  background-color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+/* MAIN SECTION */
+
 section {
   display: flex;
   flex-direction: row;
@@ -13,6 +39,28 @@ section {
   margin-left: 60px;
   margin-right: 60px;
 }
+
+
+/* ARTICLE */
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 28px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+p {
+  width: 600px;
+  display: block;
+  margin-right: 30px;
+}
+
+/* ASIDE */
 
 .images {
   width: 400px;
@@ -25,6 +73,7 @@ section {
 .image {
   display: flex;
   margin-bottom: 120px;
+  border-radius: 10px;
 }
 
 .first {
@@ -50,47 +99,40 @@ section {
   grid-row: 4 / 6;
 }
 
-header {
+/* GALLERY */
+
+.gallery {
+  width: auto;
+  height: auto;
   display: flex;
-  justify-content: space-between;
-  min-height: 100px;
-  border-bottom: 3px solid black;
+  flex-direction: column;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
 }
+
+.gallery-pictures {
+  width: auto;
+  height: 1078px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-top: 3px solid black;
+}
+
+.grote-markt-gallery {
+  display: block;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 80px;
+}
+
+/* FOOTER */
 
 footer {
-  max-height: 200px;
-}
-
-nav {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-right: 130px;
-}
-
-button {
-  height: 40px;
-  width: 180px;
-  margin-left: 30px;
-  background-color: white;
-  border-radius: 15px;
-  cursor: pointer;
-}
-
-h1 {
-  font-size: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
+  margin-top: 260px;
 }
-
-.heading {
-  font-size: 28px;
-  margin-top: 100px;
-  margin-bottom: 50px;
-}
-
-p {
-  width: 600px;
-  display: block;
-  margin-right: 30px;
-}
-
-
