@@ -126,7 +126,12 @@ p {
 }
 
 .grote-markt-gallery {
-  margin: 80px 70px 0px;
+  margin: 80px 50px 0px;
+  transition: 300ms;
+}
+
+.grote-markt-gallery:hover {
+  transform: scale(1.52);
 }
 
 /* FOOTER */
