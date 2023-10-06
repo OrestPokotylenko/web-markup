@@ -28,6 +28,17 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  background-color: black;
+  color: white;
+  transition: 250ms;
+}
+
+button:active {
+  opacity: 0.7;
+  transition: 100ms;
+}
+
 /* MAIN SECTION */
 
 section {
@@ -115,7 +126,6 @@ p {
 }
 
 .grote-markt-gallery {
-  display: block;
   margin: 80px 70px 0px;
 }
 
