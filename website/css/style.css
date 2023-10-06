@@ -108,10 +108,13 @@ p {
 /* GALLERY */
 
 .gallery {
-  width: auto;
-  height: auto;
   display: flex;
   flex-direction: column;
+  margin: 300px 0px 0px;
+}
+
+.gallery-text {
+  margin: 0px 150px 9px;
 }
 
 .gallery-top {
@@ -139,8 +142,9 @@ p {
 footer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   text-align: center;
+  font-style: italic;
+  color: #616161;
   margin-top: 260px;
 }
