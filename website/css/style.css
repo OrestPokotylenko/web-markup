@@ -70,8 +70,8 @@ h1 {
 
 p {
   width: 600px;
-  display: block;
   margin-right: 30px;
+  text-shadow: 0 0 10px rgba(42, 42, 42, 0.25);
 }
 
 /* ASIDE */
